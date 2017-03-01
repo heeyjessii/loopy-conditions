@@ -7,6 +7,16 @@
  * @return { Number }
  */
 
+function greaterNumber(one , two) {
+  console.log('hi');
+  if (one > two) {
+    return one;
+  }else {
+    return two;
+  }
+}
+
+greaterNumber(1,2);
 
 /**
  * Create a function called 'stringOfNumbers'.
@@ -18,7 +28,17 @@
  * @return { String }
  */
 
+/*look up how to store a string in an array*/
+function stringOfNumbers(one) {
+  for (var i = 0; i < one; i++) {
+    console.log(i); 
+    one.push();
+    console.log(one);
+    one.join();
+  }
+}
 
+stringOfNumbers(10);
 /**
  * Create a function called 'sumOfArray'.
  * This function will take in a parameter that is an array.
