@@ -30,12 +30,13 @@ greaterNumber(1,2);
 
 /*look up how to store a string in an array*/
 function stringOfNumbers(one) {
+  var number = [];
+  var string = "";
   for (var i = 0; i < one; i++) {
-    console.log(i); 
-    one.push();
-    console.log(one);
-    one.join();
+    console.log(i);
+    number.push(i);
   }
+  return number.join();
 }
 
 stringOfNumbers(10);
@@ -48,6 +49,9 @@ stringOfNumbers(10);
  * @return { Number }
  */
 
+function sumOfArray() {
+  // body...
+}
 
 /**
  * Create a function called 'getEvens'.
